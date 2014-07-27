@@ -23,7 +23,8 @@ $white: #fff;
 ////
 // Font Sizes, Color, Family
 ////
-
+$blue: #1E90FF;
+$open-sans: 'Open Sans', sans-serif;
 ////
 // Font Families
 ////
@@ -68,13 +69,13 @@ $h6-family:$times;
 
 
 // Now create some variables for the font stacks we want to use on this site.
-$base-font-family: $arial ; // The font family set on the html element.
-$font-body:        $verdana;
+$base-font-family: $open-sans ; // The font family set on the html element.
+$font-body:        $open-sans;
 $font-monospace:   $courier;
 $form-font-family: $arial;
 
 // Base color variables.
-$link           : $inherit;
+$link           : $blue;
 $visited        : $link;
 $selection-bg   : $inherit;
 $selection      : $white;

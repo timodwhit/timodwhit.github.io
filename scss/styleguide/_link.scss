@@ -2,7 +2,8 @@
  * Link
  */
 a {
-
+  text-decoration: none;
+  @include transition(color .2s ease);
   &:link {
     color: $link;
   }
@@ -12,7 +13,7 @@ a {
   }
 
   &:hover, &:focus {
-
+    color: rgba($link, .8);
   }
 
   &:active, &.active {

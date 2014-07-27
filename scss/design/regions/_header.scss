@@ -1,0 +1,13 @@
+.site-header {
+  background: #1E90FF;
+  color: $white;
+  border-top: 0;
+  a {
+    color: $white;
+    @include transition(color .2s ease);
+    &:hover {
+      text-decoration: none;
+      color: rgba($white, .8);
+    }
+  }
+}

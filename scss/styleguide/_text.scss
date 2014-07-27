@@ -18,7 +18,6 @@ body {
   //This mixin will allow for rems but defaults to px.
   @include rem($base-font-size);
   line-height: $base-line-height;
-
 }
 
 /**
@@ -70,4 +69,8 @@ h6 {
   @include rem($h6-size);
   // @include font-family($h6-family);
   // @include font-color($h6-color);
+}
+
+p {
+  margin-bottom: 1.2em;
 }
