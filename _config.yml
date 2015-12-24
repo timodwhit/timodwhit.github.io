@@ -1,11 +1,11 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: timodwhit
+email: timodwhit@gmail.com
+description: "Tim Whitney is a Drupal Web Dev who supposed open standards and a healthy relationship with languages."
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://timodwh.it"
+twitter_username: timodwhit
+github_username:  timodwhit
 
 # Build settings
 markdown: kramdown

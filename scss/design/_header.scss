@@ -1,0 +1,48 @@
+.site-header {
+  background: lighten($black, 97%);
+  border-bottom: 1px solid lighten($black, 92%);
+  margin-bottom: 1em;
+  padding-bottom: 5px;
+  float: left;
+  width: 100%;
+}
+
+.site-logo {
+  height: 100%;
+  text-align: center;
+  color: $white;
+}
+
+.site-info {
+  display: none;
+}
+
+.site-title {
+  @include adjust-font-size-to(30px);
+  line-height: 1;
+}
+.site-slogan {
+  display: block;
+}
+
+.site-home {
+  float: left;
+  display: block;
+  height: 90px;
+  padding: 1em;
+  text-decoration: none;
+  @include media(">medium") {
+    &:hover {
+      .site-info {
+        display: block;
+      }
+      .site-logo {
+        display: none;
+      }
+    }
+  }
+}
+.site-nav {
+  display: block;
+  float: right;
+}
